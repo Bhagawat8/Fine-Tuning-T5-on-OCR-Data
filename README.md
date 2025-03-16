@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository showcases the fine-tuning of the T5 (Text-to-Text Transfer Transformer) model from Hugging Face, specifically the `google-t5/t5-base` version, on custom training data. The project demonstrates the impact of feature engineering on model performance and presents the evaluation metrics obtained from the training process.
+This repository fine-tunes a T5 model on OCR-extracted, token-level data, employing advanced feature engineering techniques such as polynomial features and symbol counts to capture non-linear relationships in the dataset. The pipeline begins with an initial baseline training on raw data, followed by a refined phase where engineered features are introduced, and finally an extended training phase to further boost performance. Evaluation metrics—including precision, recall, and F1 score—demonstrate significant improvements after applying these techniques. This work underscores the critical impact of feature engineering in enhancing model generalization and predictive accuracy
 
 ## Contents
 
